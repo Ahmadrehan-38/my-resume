@@ -25,15 +25,25 @@ header{
 header h1{
     
     font-size: 2.5em;
-}
-header img:hover{
-    transform: scale(1.1);
+} 
+header h1:hover{
+    transform: translate3d(1.1);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+} 
+header p:hover{
+    transform: translateY(1.1);
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
 }
-header:hover{
+
+/* header img:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); */
+/* } */
+/* header:hover{
     transform: scale(1.1);
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 div {
